@@ -7,7 +7,7 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-
+        int currentMonth = new GregorianCalendar().get(Calendar.MONTH);
 
     }
 }
