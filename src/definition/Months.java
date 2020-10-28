@@ -5,7 +5,7 @@ public enum Months {
     June(30),July(31),August(31),September(30),October(31)
     ,November(30),December(31);
 
-    private static int NO_OF_DAYS_IN_MONTH;
+    private final int NO_OF_DAYS_IN_MONTH;
 
     Months(int daysInMonth){
         this.NO_OF_DAYS_IN_MONTH = daysInMonth;
