@@ -10,6 +10,8 @@ public class Main {
         int currentMonth = new GregorianCalendar().get(Calendar.MONTH);
         int todayDate = new GregorianCalendar().get(Calendar.DATE);
         String month = new GregorianCalendar().getDisplayName(Calendar.MONTH,Calendar.LONG,Locale.ENGLISH).trim().toUpperCase();
+        Months currentMonthName = Months.valueOf(month);
+        Year year = Year.now();
 
     }
 }
