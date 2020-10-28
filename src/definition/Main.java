@@ -12,6 +12,22 @@ public class Main {
         String month = new GregorianCalendar().getDisplayName(Calendar.MONTH,Calendar.LONG,Locale.ENGLISH).trim().toUpperCase();
         Months currentMonthName = Months.valueOf(month);
         Year year = Year.now();
+        switch (currentMonthName){
+            case January:
+            case February:
+            case March:
+            case April:
+            case May:
+            case June:
+            case July:
+            case August:
+            case September:
+            case October:
+            case November:
+            case December:
+
+
+        }
 
     }
 }
