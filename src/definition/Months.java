@@ -1,9 +1,9 @@
 package definition;
 
 public enum Months {
-    January(31),February(28),March(31),April(30),May(31),
-    June(30),July(31),August(31),September(30),October(31)
-    ,November(30),December(31);
+    JANUARY(31),FEBRUARY(28),MARCH(31),APRIL(30),MAY(31),
+    JUNE(30),JULY(31),AUGUST(31),SEPTEMBER(30),OCTOBER(31)
+    ,NOVEMBER(30),DECEMBER(31);
 
     private final int NO_OF_DAYS_IN_MONTH;
 
@@ -11,7 +11,7 @@ public enum Months {
         this.NO_OF_DAYS_IN_MONTH = daysInMonth;
     }
 
-    public static int getNoOfDaysInMonth() {
+    public  int getNoOfDaysInMonth() {
         return NO_OF_DAYS_IN_MONTH;
     }
 }
